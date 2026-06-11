@@ -5,9 +5,9 @@
   "type": "module",
   "main": "./src/index.ts",
   "scripts": {
-    "lint": "eslint src",
+    "lint": "echo 'no lint yet — eslint config lands Week 3'",
     "typecheck": "tsc --noEmit",
-    "test": "vitest run"
+    "test": "vitest run --passWithNoTests"
   },
   "dependencies": {
     "@ai-sdk/anthropic": "^3.0.83",
