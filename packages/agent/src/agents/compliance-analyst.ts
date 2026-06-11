@@ -16,6 +16,7 @@ import { refuse } from "../tools/refuse";
 
 export function createComplianceAnalystAgent(modelKey: ModelKey = DEFAULT_MODEL) {
   return new Agent({
+    id: "compliance-analyst",
     name: "compliance-analyst",
     instructions: complianceAnalystInstructions,
     model: modelRegistry[modelKey].model,

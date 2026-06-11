@@ -10,15 +10,16 @@
     "test": "vitest run"
   },
   "dependencies": {
-    "@mastra/core": "latest",
-    "@ai-sdk/anthropic": "latest",
-    "@ai-sdk/openai": "latest",
-    "@ai-sdk/togetherai": "latest",
-    "zod": "^3.23.0",
+    "@ai-sdk/anthropic": "^3.0.83",
+    "@ai-sdk/openai": "^3.0.70",
+    "@ai-sdk/togetherai": "^2.0.54",
+    "@mastra/core": "^1.41.0",
     "@perufindocs/retrieval": "workspace:*",
-    "@perufindocs/shared": "workspace:*"
+    "@perufindocs/shared": "workspace:*",
+    "zod": "^3.23.0"
   },
   "devDependencies": {
+    "@types/node": "^25.9.3",
     "typescript": "^5.5.0",
     "vitest": "^2.0.0"
   }
